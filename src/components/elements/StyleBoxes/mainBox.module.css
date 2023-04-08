@@ -1,0 +1,144 @@
+.one {
+    top: 20%;
+    left: 10%;
+    --w: 100px;
+    --rX: 40deg;
+    --rY: 40deg;
+    animation-name: AnimOne;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+
+@keyframes AnimOne {
+    0%, 100% {
+        transform: rotateX(0deg) rotateY(0deg) translateZ(100px);
+
+    }
+    50% {
+        transform: rotateX(40deg) rotateY(180deg);
+    }
+
+}
+
+
+
+.two {
+    top: 70%;
+    left: 20%;
+    --w: 120px;
+    --rX: 40deg;
+    --rY: 40deg;
+    animation-name: AnimTwo;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+@keyframes AnimTwo {
+    0%, 100%{
+        transform: rotateX(0deg) rotateY(0deg);
+    }
+    50% {
+        transform: rotateX(30deg) rotateY(280deg);
+    }
+
+}
+
+
+
+
+
+.three {
+    top: 33%;
+    left: 32%;
+    --w: 50px;
+    --rX: 40deg;
+    --rY: 40deg;
+    animation-name: AnimThree;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+@keyframes AnimThree {
+    0%, 100% {
+        transform: rotateX(0deg) rotateY(0deg) scale3d(1,1,1);
+    }
+    50% {
+        transform: rotateX(180deg) rotateY(180deg) scale3d(2,2,2);
+    }
+
+}
+.four {
+    top: 23%;
+    left: 82%;
+    --w: 90px;
+    --rX: 70deg;
+    --rY: 40deg;
+    animation-name: AnimFour;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+@keyframes AnimFour {
+    0%, 100% {
+        transform: rotateX(0deg) rotateY(0deg) scale3d(1,1,1);
+    }
+    50% {
+        transform: rotateX(40deg) rotateY(320deg) scale3d(1.2,1.2,1.2);
+    }
+
+}
+
+
+
+.five {
+    top: 53%;
+    left:72%;
+    --w: 120px;
+    --rX: 20deg;
+    --rY: 10deg;
+    animation-name: AnimFive;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+
+@keyframes AnimFive {
+    0%, 100% {
+        transform: rotateX(0deg) rotateY(0deg);
+    }
+    50% {
+        transform: rotateX(220deg) rotateY(220deg);
+    }
+
+}
+
+
+
+.six {
+    top: 83%;
+    left: 82%;
+    --w: 88px;
+    --rX: 40deg;
+    --rY: 40deg;
+    animation-name: AnimSix;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+}
+
+@keyframes AnimSix {
+    0%, 100% {
+        transform: rotateX(0deg) rotateY(0deg);
+    }
+    50% {
+        transform: rotateX(37deg) rotateY(180deg);
+    }
+    70% {
+        transform: rotateX(180deg) rotateY(0deg);
+    }
+
+}
